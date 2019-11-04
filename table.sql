@@ -52,3 +52,10 @@ create table t_car_model
 
 alter table t_car_model comment '车型';
 
+
+
+-- 接口
+-- https://www.autohome.com.cn/ashx/AjaxIndexCarFind.ashx?type=1
+-- https://www.autohome.com.cn/ashx/AjaxIndexCarFind.ashx?type=3&value=3
+-- https://www.autohome.com.cn/ashx/AjaxIndexCarFind.ashx?type=5&value=4259
+-- https://car.m.autohome.com.cn/ashx/car/GetModelConfigNew.ashx?seriesId=4212
