@@ -29,7 +29,7 @@ public class Main {
 		boolean flag = false;
 		for (Branditems branditems : list) {
 			
-			if(branditems.getName().equals("银隆新能源")) {
+			if(branditems.getName().equals("知豆")) {
 				flag = true; 
 			}
 			if(flag) {
@@ -44,7 +44,7 @@ public class Main {
 	 * 获取车型
 	 * @throws IOException 
 	 */
-	private static void getYearitems(Seriesitems seriesitems , StringBuilder sb) throws IOException {
+	private static void getYearitems(Seriesitems seriesitems , StringBuilder sb , int cb_id,int cbf_id) throws IOException {
 		
 		String str = HttpClientHelper.sendGet(String.format(seriesitemsUrlForamt, seriesitems.getId()));
 		if(str != null){
@@ -53,13 +53,13 @@ public class Main {
 			
 			if(resutl.getResult().getYearitems() != null) {
 				
-				String sqlFormat = "insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(%s,%s,'%s','%s',%s,%s);\r\n";
+				String sqlFormat = "insert into t_car_model(cm_id ,cb_id,cbf_id, cs_id , cm_name,cm_type ,cm_order , cm_state) values(%s,%s,%s,%s,'%s','%s',%s,%s);\r\n";
 				
 				for (Yearitems yearitems : resutl.getResult().getYearitems()) {
 					int i = 1;
 					for (Specitems specitems : yearitems.getSpecitems()) {
 						
-						String sql = String.format(sqlFormat, specitems.getId() , seriesitems.getId() , specitems.getName() , yearitems.getName() ,i++ ,0);
+						String sql = String.format(sqlFormat, specitems.getId() , cb_id,cbf_id , seriesitems.getId() , specitems.getName() , yearitems.getName() ,i++ ,0);
 						sb.append(sql);
 					}
 					
@@ -87,20 +87,21 @@ public class Main {
 				
 				String sqlFormat = "insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(%s,%s,'%s','%s');\r\n";
 				
-				String sql1Format = "insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(%s,%s,'%s',%s,'%s');\r\n";
+				String sql1Format = "insert into t_car_series(cs_id,cb_id,cbf_id,cs_name,cs_order,cs_letter) values(%s,%s,%s,'%s',%s,'%s');\r\n";
 				
 				
 				StringBuilder sb = new StringBuilder();
 				for (Factoryitems factoryitems : resutl.getResult().getFactoryitems()) {
+					//品牌厂商
 					String sql = String.format(sqlFormat, factoryitems.getId() , branditems.getId() , factoryitems.getName() , factoryitems.getFirstletter() , "");
 					sb.append(sql);
 					
 					for (Seriesitems seriesitems: factoryitems.getSeriesitems()) {
-						
-						String sql1 = String.format(sql1Format, seriesitems.getId() , factoryitems.getId() , seriesitems.getName() , seriesitems.getSeriesorder(),  seriesitems.getFirstletter() );
+						//车系
+						String sql1 = String.format(sql1Format, seriesitems.getId() , branditems.getId(), factoryitems.getId() , seriesitems.getName() , seriesitems.getSeriesorder(),  seriesitems.getFirstletter() );
 						sb.append(sql1);
 						
-						getYearitems(seriesitems , sb);
+						getYearitems(seriesitems , sb , branditems.getId(), factoryitems.getId() );
 					}
 				}
 

@@ -35,7 +35,7 @@ insert into t_car_brand(cb_id , cb_name ,cb_letter , cb_logo) values(362,'博郡
 insert into t_car_brand(cb_id , cb_name ,cb_letter , cb_logo) values(37,'布加迪','B','https://car3.autoimg.cn/cardfs/series/g27/M07/B0/47/100x100_f40_autohomecar__wKgHHls9u6-AR44cAAAs_DFf2AY596.png');
 insert into t_car_brand(cb_id , cb_name ,cb_letter , cb_logo) values(76,'长安','C','https://car2.autoimg.cn/cardfs/series/g3/M02/15/24/autohomecar__ChsEm112I42AX6BqAAA_svhrgTA370.png');
 insert into t_car_brand(cb_id , cb_name ,cb_letter , cb_logo) values(299,'长安跨越','C','https://car2.autoimg.cn/cardfs/series/g29/M02/AA/69/100x100_f40_autohomecar__wKgHJFs8gvyAIOjpAAAP8QDmnsg975.png');
-insert into t_car_brand(cb_id , cb_name ,cb_letter , cb_logo) values(163,'长安欧尚','C','https://car3.autoimg.cn/cardfs/series/g24/M0B/8D/9F/autohomecar__ChsEl12BipiAQv8WAAAMa2UQ-Xk307.png');
+insert into t_car_brand(cb_id , cb_name ,cb_letter , cb_logo) values(163,'长安欧尚','C','https://car2.autoimg.cn/cardfs/series/g27/M04/0F/42/autohomecar__ChsEnV3A5vCAEpKxAAAteTtyEik724.png');
 insert into t_car_brand(cb_id , cb_name ,cb_letter , cb_logo) values(294,'长安轻型车','C','https://car2.autoimg.cn/cardfs/series/g26/M00/AF/8A/100x100_f40_autohomecar__wKgHHVs9r6OAER1OAAA4HbXEhtg696.png');
 insert into t_car_brand(cb_id , cb_name ,cb_letter , cb_logo) values(77,'长城','C','https://car3.autoimg.cn/cardfs/series/g30/M00/AF/12/100x100_f40_autohomecar__wKgHHFs9s9OAOb66AAAYgXAgE6Q888.png');
 insert into t_car_brand(cb_id , cb_name ,cb_letter , cb_logo) values(366,'车驰汽车','C','https://car2.autoimg.cn/cardfs/series/g30/M09/34/D8/autohomecar__ChsEf1yAuXKAB06TAABSgskKW3A014.png');

@@ -4,8 +4,8 @@
 -- https://www.autohome.com.cn/ashx/AjaxIndexCarFind.ashx?type=5&value=4259
 -- https://car.m.autohome.com.cn/ashx/car/GetModelConfigNew.ashx?seriesId=4212
 
---多文件拼接成一个文件
---type F:\tools\eclipse\eclipse-jee-2019-09-R-win32-x86_64\eclipse-workspace\test\sql\*.sql >> F:\tools\eclipse\eclipse-jee-2019-09-R-win32-x86_64\eclipse-workspace\test\all.sql
+-- 多文件拼接成一个文件
+-- type F:\tools\eclipse\eclipse-jee-2019-09-R-win32-x86_64\eclipse-workspace\test\sql\*.sql >> F:\tools\eclipse\eclipse-jee-2019-09-R-win32-x86_64\eclipse-workspace\test\all.sql
 
 drop table if exists t_car_brand;
 
@@ -43,6 +43,8 @@ alter table t_car_brand_factory comment '车牌品牌厂家';
 
 drop table if exists t_car_series;
 
+drop table if exists t_car_series;
+
 /*==============================================================*/
 /* Table: t_car_series                                          */
 /*==============================================================*/
@@ -50,6 +52,7 @@ create table t_car_series
 (
    cs_id                bigint(20) not null auto_increment comment '编号',
    cbf_id               bigint(20) comment '车牌品牌厂家编号',
+   cb_id                bigint(20) comment '车牌品牌编号',
    cs_name              varchar(100) comment '车系名称',
    cs_order             bigint(20) comment '排序',
    cs_letter            varchar(10) comment '英文首字母',
@@ -66,8 +69,10 @@ drop table if exists t_car_model;
 create table t_car_model
 (
    cm_id                bigint(20) not null auto_increment comment '编号',
-   cs_id                bigint(20) comment '车牌品牌编号',
-   cm_name              varchar(100) comment '车系名称',
+   cs_id                bigint(20) comment '车系编号',
+   cbf_id               bigint(20) comment '车牌品牌厂家编号',
+   cb_id                bigint(20) comment '车牌品牌编号',
+   cm_name              varchar(100) comment '车型名称',
    cm_order             bigint(20) comment '排序',
    cm_state             bigint(10) comment '状态',
    cm_type              varchar(100) comment '类型',
