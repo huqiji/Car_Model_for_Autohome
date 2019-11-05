@@ -1,0 +1,15 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(545,369,'国机智骏','G');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5234,545,'国机智骏GC1',1714,'G');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41789,5234,'2020款 智酷 410P','2020款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41790,5234,'2020款 智乐 410P','2020款',2,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(38723,5234,'2020款 智享 410P','2020款',3,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5235,545,'国机智骏GC2',1715,'G');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41794,5235,'2020款 智尚 450P（两座）','2020款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41791,5235,'2020款 智行 450P（两座）','2020款',2,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(38724,5235,'2020款 智趣 450P（两座）','2020款',3,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41792,5235,'2020款 智行 450P（四座）','2020款',4,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41793,5235,'2020款 智趣 450P（四座）','2020款',5,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5233,545,'国机智骏GX5',1716,'G');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41788,5233,'2020款 智领 430P','2020款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41113,5233,'2020款 智悦 430P','2020款',2,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(38722,5233,'2020款 智尊 430P','2020款',3,0);

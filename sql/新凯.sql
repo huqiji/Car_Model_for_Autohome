@@ -1,0 +1,13 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(364,185,'新凯汽车','X');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4351,364,'新凯V-Class',3705,'X');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(29544,4351,'2017款 尊跃 V 260 L 低顶','2017款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(29545,4351,'2017款 尊跃 V 260 L 高顶','2017款',2,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3703,364,'新凯凌特',3706,'X');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(21337,3703,'2015款 3.5L 标准型','2015款',1,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3702,364,'新凯威霆',3707,'X');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(35330,3702,'2017款 2.0T 标准型','2017款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(21336,3702,'2015款 3.0L 标准型','2015款',1,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3090,364,'凯胜',3708,'K');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(16524,3090,'2013款 一代 2.4L 标准型','2013款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(15749,3090,'2013款 二代 2.0L 标准型','2013款',2,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(16516,3090,'2013款 二代 2.4L 标准型','2013款',3,0);

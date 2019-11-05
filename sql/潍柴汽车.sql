@@ -1,0 +1,14 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(372,393,'潍柴汽车','W');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5392,372,'潍柴汽车U70',3499,'W');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42618,5392,'2020款 1.5T 手动舒适版 5座','2020款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42587,5392,'2020款 1.5T 手动舒适版 7座','2020款',2,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42619,5392,'2020款 1.5T 手动精英版 5座','2020款',3,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42588,5392,'2020款 1.5T 手动精英版 7座','2020款',4,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42620,5392,'2020款 1.5T 手动豪华版 5座','2020款',5,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42589,5392,'2020款 1.5T 手动豪华版 7座','2020款',6,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42621,5392,'2020款 1.5T 自动智享精英版 5座','2020款',7,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42590,5392,'2020款 1.5T 自动智享精英版 7座','2020款',8,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42622,5392,'2020款 1.5T 自动智享豪华版 5座','2020款',9,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42591,5392,'2020款 1.5T 自动智享豪华版 7座','2020款',10,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(42623,5392,'2020款 1.5T 自动智享旗舰版 5座','2020款',11,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41166,5392,'2020款 1.5T 自动智享旗舰版 7座','2020款',12,0);

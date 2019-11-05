@@ -1,0 +1,17 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(385,204,'陆地方舟','L');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4509,385,'威途X35',2607,'W');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(1005463,4509,'2017款 RQ5026XXYEVH0 45kWh','2017款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(1005464,4509,'2017款 RQ5026XXYEVH0 53kWh','2017款',2,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(1005462,4509,'2017款 RQ5026XXYEVH2 48kWh','2017款',3,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(1005460,4509,'2017款 RQ5026XXYEVH3 46kWh','2017款',4,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(1005461,4509,'2017款 RQ5026XXYEVH3 54kWh','2017款',5,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3436,385,'艾威',2609,'A');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(18769,3436,'2012款 标准型','2012款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(18765,3436,'2011款 标准型','2011款',1,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3439,385,'陆地方舟风尚',2610,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(18768,3439,'2013款 标准型','2013款',1,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3438,385,'陆地方舟V5',2611,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(18772,3438,'2013款 经济型','2013款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(18771,3438,'2013款 舒适型','2013款',2,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(18770,3438,'2013款 豪华型','2013款',3,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(18767,3438,'2013款 旗舰型','2013款',4,0);

@@ -1,0 +1,14 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(74,371,'现代(进口)','X');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3453,74,'捷恩斯',2098,'J');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19885,3453,'2015款 3.0GDi 两驱商务版','2015款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19910,3453,'2015款 3.0GDi 四驱商务版','2015款',2,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19886,3453,'2015款 3.0GDi 两驱精英版','2015款',3,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19911,3453,'2015款 3.0GDi 四驱精英版','2015款',4,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19909,3453,'2015款 3.0GDi 两驱豪华版','2015款',5,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19805,3453,'2015款 3.0GDi 四驱豪华版','2015款',6,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19887,3453,'2015款 3.0GDi 两驱旗舰版','2015款',7,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19912,3453,'2015款 3.0GDi 四驱旗舰版','2015款',8,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19888,3453,'2015款 3.3GDi 两驱豪华版','2015款',9,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19913,3453,'2015款 3.3GDi 四驱豪华版','2015款',10,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19889,3453,'2015款 3.3GDi 两驱旗舰版','2015款',11,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(19914,3453,'2015款 3.3GDi 四驱旗舰版','2015款',12,0);

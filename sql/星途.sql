@@ -1,0 +1,13 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(525,350,'星途','X');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4822,525,'星途LX',3710,'X');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41439,4822,'2019款 1.6T 星享版','2019款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41440,4822,'2019款 1.6T 星耀版','2019款',2,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41351,4822,'2019款 1.6T 星睿版','2019款',3,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(41270,4822,'2019款 1.6T 星尊版','2019款',4,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4516,525,'星途TX',3711,'X');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(37820,4516,'2019款 TX 1.6T 四驱铂金版','2019款',1,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(38361,4516,'2019款 TXL 1.6T 两驱铂金版','2019款',2,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(37103,4516,'2019款 TXL 1.6T 两驱钻石版','2019款',3,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(38836,4516,'2019款 TXL 1.6T 两驱星曜版','2019款',4,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(38503,4516,'2019款 TXL 1.6T 四驱旗舰版','2019款',5,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(38502,4516,'2019款 TX 1.6T 两驱紫金版','2019款',6,0);
