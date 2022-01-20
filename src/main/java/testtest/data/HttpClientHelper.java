@@ -70,6 +70,11 @@ public class HttpClientHelper {
         // 设置post请求超时时间
         getMethod.getParams().setParameter(HttpMethodParams.SO_TIMEOUT, 60000);
         getMethod.addRequestHeader("Content-Type", "application/json");
+//        getMethod.addRequestHeader("Content-Type","text/plain;charset=gb2312");
+        getMethod.addRequestHeader("content-encoding", "gzip, deflate, br"); 
+        getMethod.addRequestHeader("accept-language", "zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7"); 
+        getMethod.addRequestHeader("accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"); 
+        
         String ip = IPHelper.getRandomIp();
         getMethod.addRequestHeader("X-Forwarded-For", ip);
         getMethod.addRequestHeader("Http_X_Forwarded_For", ip);
@@ -80,6 +85,8 @@ public class HttpClientHelper {
         try {
             httpClient.executeMethod(getMethod);
             String result = getMethod.getResponseBodyAsString();
+
+            
             getMethod.releaseConnection();
             return result;
         } catch (IOException e) {

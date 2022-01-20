@@ -24,17 +24,21 @@ public class Main {
 //	public static final String branditemsUrl = "https://car.m.autohome.com.cn/ashx/car/GetModelConfigNew.ashx?seriesId=4212";
 
 	public static void main(String[] args) throws IOException {
-		
+
+		//System.out.println("--111-");
+
 		List<Branditems> list = getBranditems();
 		boolean flag = false;
 		for (Branditems branditems : list) {
-			
+			getFactoryitems(branditems);		
+			/**
 			if(branditems.getName().equals("银隆新能源")) {
 				flag = true; 
 			}
 			if(flag) {
 				getFactoryitems(branditems);				
 			}
+			**/
 		}
 	}
 	
@@ -46,20 +50,21 @@ public class Main {
 	 */
 	private static void getYearitems(Seriesitems seriesitems , StringBuilder sb) throws IOException {
 		
-		String str = HttpClientHelper.sendGet(String.format(seriesitemsUrlForamt, seriesitems.getId()));
+//		String str = HttpClientHelper.sendGet(String.format(seriesitemsUrlForamt, seriesitems.getId()));
+		String str = HttpHelper.get(String.format(seriesitemsUrlForamt, seriesitems.getId()));
 		if(str != null){
 			
 			Result resutl = JSON.parseObject(str, Result.class);
 			
 			if(resutl.getResult().getYearitems() != null) {
 				
-				String sqlFormat = "insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state) values(%s,%s,'%s','%s',%s,%s);\r\n";
+				String sqlFormat = "insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(%s,%s,'%s','%s',%s,%s,%s,%s);\r\n";
 				
 				for (Yearitems yearitems : resutl.getResult().getYearitems()) {
 					int i = 1;
 					for (Specitems specitems : yearitems.getSpecitems()) {
 						
-						String sql = String.format(sqlFormat, specitems.getId() , seriesitems.getId() , specitems.getName() , yearitems.getName() ,i++ ,0);
+						String sql = String.format(sqlFormat, specitems.getId() , seriesitems.getId() , specitems.getName() , yearitems.getName() ,i++ ,1 , specitems.getMinprice() , specitems.getMaxprice() );
 						sb.append(sql);
 					}
 					
@@ -78,7 +83,8 @@ public class Main {
 	 */
 	private static void getFactoryitems(Branditems branditems) throws IOException {
 		
-		String str = HttpClientHelper.sendGet(String.format(factoryitemsUrlForamt, branditems.getId()));
+		//String str = HttpClientHelper.sendGet(String.format(factoryitemsUrlForamt, branditems.getId()));
+		String str = HttpHelper.get(String.format(factoryitemsUrlForamt, branditems.getId()));
 		if(str != null){
 			
 			Result resutl = JSON.parseObject(str, Result.class);
@@ -129,7 +135,9 @@ public class Main {
 		
 		List<Branditems> list = null;
 		
-		String str = HttpClientHelper.sendGet(branditemsUrl);
+//		String str = HttpClientHelper.sendGet(branditemsUrl);
+		String str = HttpHelper.get(branditemsUrl);
+		System.out.println(str);
 		if(str != null){
 			
 			Result resutl = JSON.parseObject(str, Result.class);
@@ -163,7 +171,7 @@ public class Main {
 	
 	private static File crateFile(String fileName) throws IOException{
 		
-		String path = System.getProperty("user.dir") + "\\sql\\" + fileName + ".sql";
+		String path = System.getProperty("user.dir") + "\\sql3\\" + fileName + ".sql";
 		
 		File file = new File(path);
 		File pFile = file.getParentFile();
