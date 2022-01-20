@@ -4,6 +4,9 @@
 -- https://www.autohome.com.cn/ashx/AjaxIndexCarFind.ashx?type=5&value=4259
 -- https://car.m.autohome.com.cn/ashx/car/GetModelConfigNew.ashx?seriesId=4212
 
+-- 车型参数
+-- https://car.m.autohome.com.cn/ashx/car/GetModelConfigNew.ashx?seriesId=4259
+
 --多文件拼接成一个文件
 --type F:\tools\eclipse\eclipse-jee-2019-09-R-win32-x86_64\eclipse-workspace\test\sql\*.sql >> F:\tools\eclipse\eclipse-jee-2019-09-R-win32-x86_64\eclipse-workspace\test\all.sql
 
@@ -71,6 +74,8 @@ create table t_car_model
    cm_order             bigint(20) comment '排序',
    cm_state             bigint(10) comment '状态',
    cm_type              varchar(100) comment '类型',
+  `cm_min_price`         decimal(10,2) DEFAULT NULL COMMENT '最低价格',
+  `cm_max_price`         decimal(10,2) DEFAULT NULL COMMENT '最高价格',
    primary key (cm_id)
 );
 

@@ -25,20 +25,18 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 
-		//System.out.println("--111-");
-
 		List<Branditems> list = getBranditems();
 		boolean flag = false;
 		for (Branditems branditems : list) {
 			getFactoryitems(branditems);		
-			/**
-			if(branditems.getName().equals("银隆新能源")) {
-				flag = true; 
-			}
-			if(flag) {
-				getFactoryitems(branditems);				
-			}
-			**/
+
+//			if(branditems.getName().equals("银隆新能源")) {
+//				flag = true;
+//			}
+//			if(flag) {
+//				getFactoryitems(branditems);
+//			}
+
 		}
 	}
 	
