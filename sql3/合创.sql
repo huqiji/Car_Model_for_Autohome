@@ -1,0 +1,12 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(552,376,'合创汽车','H');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6157,552,'合创Z03',2281,'H');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50882,6157,'2021款 潮玩版','2021款',1,1,132800,132800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52770,6157,'2021款 潮智版','2021款',2,1,148800,148800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53753,6157,'2021款 长续航潮智版','2021款',3,1,158800,158800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52769,6157,'2021款 Z潮版','2021款',4,1,168800,168800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5322,552,'合创007',2282,'H');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51162,5322,'2021款 BASE版','2021款',1,1,259800,259800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51163,5322,'2021款 PLUS版','2021款',2,1,279800,279800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43372,5322,'2020款 BASE版','2020款',1,1,259800,259800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43255,5322,'2020款 PLUS版','2020款',2,1,279800,279800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43256,5322,'2020款 TOP版','2020款',3,1,303000,303000);

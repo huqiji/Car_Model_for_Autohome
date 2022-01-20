@@ -1,0 +1,17 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(572,392,'星驰汽车','X');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5469,572,'铂驰VC系列',960,'B');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53134,5469,'2021款 2.0T 威享','2021款',1,1,1188000,1188000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53804,5469,'2021款 2.0T 威行 无隔断','2021款',2,1,1238000,1238000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53133,5469,'2021款 2.0T 威行 有隔断','2021款',3,1,1288000,1288000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(42329,5469,'2020款 V260L 威享','2020款',1,1,988000,988000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(42330,5469,'2020款 V260L 威睿','2020款',2,1,998000,998000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(42328,5469,'2020款 V260L 维努斯','2020款',3,1,1388000,1388000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6364,572,'铂驰维努斯',961,'B');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53053,6364,'2021款 2.0T NOVA星航','2021款',1,1,1488000,1488000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53052,6364,'2021款 2.0T EXPANSE无垠','2021款',2,1,1888000,1888000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5470,572,'铂驰NV系列',962,'B');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(42331,5470,'2020款 2.0T 福祉车','2020款',1,1,788000,788000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5501,572,'铂驰SP系列',963,'B');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(42669,5501,'2019款 3.5L 星越','2019款',1,1,1288000,1288000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5544,572,'铂驰T系列',964,'B');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43146,5544,'2019款 2.0T 逸驰','2019款',1,1,788000,788000);

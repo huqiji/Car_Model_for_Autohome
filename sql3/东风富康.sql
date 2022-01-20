@@ -1,0 +1,13 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(586,406,'神龙汽车','S');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5589,586,'e爱丽舍',1538,'E');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50062,5589,'2021款 磷酸铁锂 手动挡 301km','2021款',1,1,129800,129800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50061,5589,'2021款 磷酸铁锂 自动挡 301km','2021款',2,1,129800,129800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47967,5589,'2021款 三元锂 手动挡 300km','2021款',3,1,139800,139800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43518,5589,'2021款 三元锂 自动挡 300km','2021款',4,1,139800,139800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5001,586,'富康ES500',1539,'F');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49214,5001,'2021款 标准版','2021款',1,1,141800,141800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(36731,5001,'2019款 睿享版','2019款',1,1,212800,212800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(36730,5001,'2019款 睿尊版','2019款',2,1,222800,222800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41267,5001,'2019款 改款 睿动版','2019款',3,1,224800,224800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41268,5001,'2019款 改款 睿享版','2019款',4,1,226800,226800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41269,5001,'2019款 改款 睿尊版','2019款',5,1,236800,236800);

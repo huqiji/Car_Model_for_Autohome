@@ -1,0 +1,16 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(416,449,'御捷新能源','Y');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6052,416,'朋克啦啦',3657,'P');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50102,6052,'2021款 基础版','2021款',1,1,0,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6051,416,'朋克多多',3658,'P');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53729,6051,'2022款 炫多多','2022款',1,1,35800,35800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(54385,6051,'2022款 酷多多','2022款',2,1,41800,41800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(54383,6051,'2022款 靓多多','2022款',3,1,26800,26800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(54384,6051,'2022款 乐多多','2022款',4,1,31800,31800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50101,6051,'2021款 靓多多','2021款',1,1,26800,26800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50125,6051,'2021款 乐多多','2021款',2,1,31800,31800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50126,6051,'2021款 酷多多','2021款',3,1,39800,39800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6014,416,'朋克美美',3659,'P');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50105,6014,'2021款 经济型','2021款',1,1,29800,29800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50127,6014,'2021款 悦享型','2021款',2,1,34800,34800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50128,6014,'2021款 尊享型','2021款',3,1,42800,42800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49541,6014,'2021款 尊贵型','2021款',4,1,46800,46800);

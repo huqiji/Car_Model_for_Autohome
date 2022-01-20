@@ -1,0 +1,10 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(577,398,'野马新能源','Y');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4633,577,'野马EC60',4898,'Y');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51849,4633,'2022款 尊享版','2022款',1,1,169900,169900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51236,4633,'2022款 旗舰版','2022款',2,1,129900,129900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49594,4633,'2021款 旗舰版','2021款',1,1,129900,129900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(45750,4633,'2020款 R400','2020款',1,1,109900,109900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(38436,4633,'2019款 R400 极客版','2019款',1,1,159800,159800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44989,4633,'2019款 R400 创客版','2019款',2,1,189800,189800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(36722,4633,'2019款 R460 创客版','2019款',3,1,169800,169800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44990,4633,'2019款 R500 创客版','2019款',4,1,255800,255800);

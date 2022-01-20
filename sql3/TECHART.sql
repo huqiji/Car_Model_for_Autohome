@@ -1,0 +1,13 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(382,202,'TECHART','T');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3391,382,'TECHART保时捷911',4349,'T');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18338,3391,'2014款 3.4L 标准型','2014款',1,1,1923000,1923000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3393,382,'TECHART Panamera',4350,'T');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18342,3393,'2014款 3.0T 标准型','2014款',1,1,1839000,1839000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3392,382,'TECHART Cayenne',4351,'T');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18341,3392,'2014款 3.0T 柴油标准型','2014款',1,1,1277000,1277000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18339,3392,'2014款 3.6L 汽油标准型','2014款',2,1,1397000,1397000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18340,3392,'2014款 3.0T Hybrid','2014款',3,1,1527000,1527000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3389,382,'TECHART Boxster',4352,'T');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18336,3389,'2014款 2.7L 标准型','2014款',1,1,1101000,1101000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3390,382,'TECHART Cayman',4353,'T');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18337,3390,'2014款 2.7L 标准型','2014款',1,1,1122000,1122000);

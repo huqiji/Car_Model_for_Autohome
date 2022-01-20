@@ -1,0 +1,14 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(579,399,'一汽凌源','Y');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5548,579,'雷神',4940,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008772,5548,'2019款 2.5T手动两驱创享型短轴JE4D25Q5A','2019款',1,1,93800,93800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008770,5548,'2019款 2.5T手动两驱舒适型短轴JE4D25Q5A','2019款',2,1,98800,98800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008768,5548,'2019款 2.5T手动两驱豪华型短轴JE4D25Q5A','2019款',3,1,103800,103800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008773,5548,'2019款 2.5T手动两驱创享型长轴JE4D25Q5A','2019款',4,1,95800,95800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008771,5548,'2019款 2.5T手动两驱舒适型长轴JE4D25Q5A','2019款',5,1,100800,100800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008769,5548,'2019款 2.5T手动两驱豪华型长轴JE4D25Q5A','2019款',6,1,105800,105800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008766,5548,'2019款 2.5T手动四驱创享型短轴JE4D25Q5A','2019款',7,1,108800,108800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008764,5548,'2019款 2.5T手动四驱舒适型短轴JE4D25Q5A','2019款',8,1,112800,112800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008762,5548,'2019款 2.5T手动四驱豪华型短轴JE4D25Q5A','2019款',9,1,117800,117800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008767,5548,'2019款 2.5T手动四驱创享型长轴JE4D25Q5A','2019款',10,1,110800,110800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008765,5548,'2019款 2.5T手动四驱舒适型长轴JE4D25Q5A','2019款',11,1,114800,114800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008763,5548,'2019款 2.5T手动四驱豪华型长轴JE4D25Q5A','2019款',12,1,119800,119800);

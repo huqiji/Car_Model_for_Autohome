@@ -1,0 +1,17 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(423,238,'斯达泰克','S');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3849,423,'斯达泰克-卫士',4296,'S');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22967,3849,'2015款 2.2T 90','2015款',1,1,1128000,1128000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22969,3849,'2015款 2.2T 110','2015款',2,1,1328000,1328000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3847,423,'斯达泰克-揽胜',4297,'S');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22968,3847,'2015款 3.0 TD V6 Leader','2015款',1,1,1858000,1858000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22970,3847,'2015款 3.0 TD V6 Carbon','2015款',2,1,2058000,2058000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22971,3847,'2015款 3.0 SC V6 Leader','2015款',3,1,1918000,1918000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22972,3847,'2015款 3.0 SC V6 Carbon','2015款',4,1,2118000,2118000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22973,3847,'2015款 3.0 V6 SC 加长贵族版','2015款',5,1,2688000,2688000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22978,3847,'2015款 5.0 V8 SC 加长贵族版','2015款',6,1,3888000,3888000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22979,3847,'2015款 5.0 V8 SC Pick-Up','2015款',7,1,3688000,3688000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3848,423,'斯达泰克-揽胜运动版',4298,'S');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22974,3848,'2015款 3.0 SD honour','2015款',1,1,1488000,1488000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22975,3848,'2015款 3.0 SD carbon','2015款',2,1,1688000,1688000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22976,3848,'2015款 3.0 SC honour','2015款',3,1,1558000,1558000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(22977,3848,'2015款 3.0 SC carbon','2015款',4,1,1758000,1758000);

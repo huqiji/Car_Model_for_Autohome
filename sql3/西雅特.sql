@@ -1,0 +1,17 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(194,98,'西雅特','X');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(714,194,'伊比飒',4591,'Y');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(15601,714,'2013款 1.2TSI 5门版Style','2013款',1,1,149800,149800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(15603,714,'2013款 1.4TSI 5门版FR','2013款',2,1,188800,188800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(15602,714,'2013款 1.4TSI 3门版FR','2013款',3,1,183800,183800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12233,714,'2013款 1.4TSI 旅行版FR','2013款',4,1,188800,188800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(718,194,'LEON',4593,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12290,718,'2012款 1.8TSI FR','2012款',1,1,243900,243900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(10609,718,'2012款 1.8TSI FR+','2012款',2,1,258900,258900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(5689,718,'2012款 2.0TSI CUPRA','2012款',3,1,294600,294600);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(2105,194,'欧悦搏',4607,'O');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(16341,2105,'2013款 1.8TSI 豪华版 欧IV','2013款',1,1,299200,299200);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(16342,2105,'2013款 1.8TSI 豪华导航版 欧IV','2013款',2,1,329000,329000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(16343,2105,'2013款 2.0TSI 至尊版 欧IV','2013款',3,1,365700,365700);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(16173,2105,'2013款 1.8TSI 豪华版 欧V','2013款',4,1,299200,299200);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(16338,2105,'2013款 1.8TSI 豪华导航版 欧V','2013款',5,1,329000,329000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(16339,2105,'2013款 2.0TSI 至尊版 欧V','2013款',6,1,365700,365700);

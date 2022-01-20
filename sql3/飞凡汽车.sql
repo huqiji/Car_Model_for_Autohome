@@ -1,0 +1,13 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(159,438,'上汽集团','S');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5779,159,'飞凡ER6',1665,'F');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53078,5779,'2021款 新动版 520km 智领版','2021款',1,1,155800,155800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51796,5779,'2021款 新动版 620km 智行版','2021款',2,1,162800,162800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51797,5779,'2021款 新动版 620km 智享版','2021款',3,1,175800,175800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51609,5779,'2021款 新动版 620km 智尊版','2021款',4,1,200800,200800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(46797,5779,'2020款 620km 智行版','2020款',1,1,162800,162800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47158,5779,'2020款 620km 智享版','2020款',2,1,175800,175800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(46798,5779,'2020款 620km 智尊版','2020款',3,1,200800,200800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5746,159,'飞凡MARVEL R',1666,'F');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49795,5746,'2021款 后驱标准版','2021款',1,1,219800,219800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(48781,5746,'2021款 后驱PRO版','2021款',2,1,239800,239800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49796,5746,'2021款 四驱PRO版','2021款',3,1,259800,259800);

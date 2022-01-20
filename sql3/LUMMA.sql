@@ -1,0 +1,11 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(624,441,'LUMMA Design','L');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5979,624,'LUMMA CLR G770',2909,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(48970,5979,'2021款 G770 4.0T 标准型','2021款',1,1,3980000,3980000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(48980,5979,'2021款 G770 R 4.0T 标准型','2021款',2,1,4680000,4680000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6166,624,'LUMMA CLR LD',2910,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52960,6166,'2022款 3.0T 标准型','2022款',1,1,1780000,1780000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50928,6166,'2021款 3.0T 标准型','2021款',1,1,1680000,1680000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5980,624,'LUMMA CLR RS',2911,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(48968,5980,'2021款 3.0T 标准型','2021款',1,1,1680000,1680000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5975,624,'LUMMA CLR V',2912,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(48866,5975,'2021款 2.0T 男爵版','2021款',1,1,1380000,1380000);

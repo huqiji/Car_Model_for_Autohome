@@ -1,0 +1,15 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(385,204,'陆地方舟','L');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4509,385,'威途X35',3269,'W');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1005463,4509,'2017款 RQ5026XXYEVH0 45kWh','2017款',1,1,190000,190000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1005464,4509,'2017款 RQ5026XXYEVH0 53kWh','2017款',2,1,190000,190000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1005462,4509,'2017款 RQ5026XXYEVH2 48kWh','2017款',3,1,190000,190000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1005460,4509,'2017款 RQ5026XXYEVH3 46kWh','2017款',4,1,190000,190000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1005461,4509,'2017款 RQ5026XXYEVH3 54kWh','2017款',5,1,190000,190000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3436,385,'艾威',3270,'A');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18769,3436,'2012款 标准型','2012款',1,1,56800,56800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18765,3436,'2011款 标准型','2011款',1,1,53800,53800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3439,385,'陆地方舟风尚',3271,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18768,3439,'2013款 标准型','2013款',1,1,298000,298000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3438,385,'陆地方舟V5',3273,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18772,3438,'2013款 经济型','2013款',1,1,69800,69800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18771,3438,'2013款 舒适型','2013款',2,1,72800,72800);

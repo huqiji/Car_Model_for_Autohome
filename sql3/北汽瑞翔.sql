@@ -1,0 +1,12 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(653,472,'北汽瑞翔','B');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6262,653,'北汽瑞翔X5',476,'B');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52833,6262,'2021款 1.5T 手动标准型 5座','2021款',1,1,73800,73800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52834,6262,'2021款 1.5T 手动精英型 5座','2021款',2,1,89800,89800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52835,6262,'2021款 1.5T 手动豪华型 5座','2021款',3,1,98800,98800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52838,6262,'2021款  1.5T 手动精英型 7座','2021款',4,1,91800,91800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52839,6262,'2021款 1.5T 手动豪华型 7座','2021款',5,1,100800,100800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52836,6262,'2021款 1.5T 自动精英型 5座','2021款',6,1,99800,99800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52837,6262,'2021款 1.5T 自动豪华型 5座','2021款',7,1,108800,108800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52840,6262,'2021款 1.5T 自动精英型 7座','2021款',8,1,101800,101800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52841,6262,'2021款 1.5T 自动豪华型 7座','2021款',9,1,110800,110800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51710,6262,'2021款 1.5T 自动旗舰型 7座','2021款',10,1,123800,123800);

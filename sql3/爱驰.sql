@@ -1,0 +1,18 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(503,327,'爱驰汽车','A');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5642,503,'爱驰U6',135,'A');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51118,5642,'2021款 PLAY','2021款',1,1,0,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52207,5642,'2021款 CYBER PLAY','2021款',2,1,0,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52208,5642,'2021款 TOP PLAY','2021款',3,1,0,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4769,503,'爱驰U5',136,'A');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47702,4769,'2021款 U5 SE','2021款',1,1,166900,166900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50022,4769,'2021款 U5 标准续航 PURE智净版','2021款',2,1,169900,169900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47703,4769,'2021款 U5 ING','2021款',3,1,186900,186900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50023,4769,'2021款 U5 长续航 PURE智净版','2021款',4,1,189900,189900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47704,4769,'2021款 U5 ING+','2021款',5,1,209900,209900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47705,4769,'2021款 U5 PRO','2021款',6,1,229900,229900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47706,4769,'2021款 U5 PRO+','2021款',7,1,249900,249900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49186,4769,'2020款 U5 Lite','2020款',1,1,207900,207900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41530,4769,'2019款 U5 ING','2019款',1,1,197900,197900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41525,4769,'2019款 U5 ING+','2019款',2,1,222100,222100);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41527,4769,'2019款 U5 PRO','2019款',3,1,247900,247900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41528,4769,'2019款 U5 PRO+','2019款',4,1,292100,292100);

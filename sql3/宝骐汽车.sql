@@ -1,0 +1,3 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(526,351,'宝骐汽车','B');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5036,526,'帅骐',359,'S');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1006967,5036,'2019款 纯电动厢式运输车','2019款',1,1,99800,99800);

@@ -1,0 +1,10 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(541,366,'车驰汽车','C');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5177,541,'车驰V系列',1177,'C');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(39753,5177,'2019款 2.0T 维多利亚','2019款',1,1,928000,928000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(38132,5177,'2019款 2.0T 图拉真臻享','2019款',2,1,1180000,1180000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5328,541,'车驰Sprinter',1178,'C');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(39708,5328,'2019款 3.5L 凯撒','2019款',1,1,1680000,1680000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5327,541,'车驰T系列',1179,'C');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(39711,5327,'2019款 2.0T 麦哲伦','2019款',1,1,858000,858000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5326,541,'车驰Daily',1180,'C');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1007669,5326,'2019款 哥伦布','2019款',1,1,898000,898000);

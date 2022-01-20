@@ -1,0 +1,11 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(500,325,'金康赛力斯','J');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4752,500,'赛力斯SF5',4034,'S');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50893,4752,'2021款 华为智选两驱版','2021款',1,1,216800,216800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50894,4752,'2021款 华为智选四驱版','2021款',2,1,246800,246800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49660,4752,'2021款 四驱自由远征版','2021款',3,1,259800,259800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44999,4752,'2020款 四驱高性能版','2020款',1,1,339000,339000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(46801,4752,'2020款 四驱高性能运动版','2020款',2,1,279000,279000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47105,4752,'2020款 改款 四驱高性能版','2020款',3,1,339000,339000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(46802,4752,'2020款 两驱高性能运动版','2020款',4,1,249000,249000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(38863,4752,'2019款 两驱基础版','2019款',1,1,278000,278000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(38868,4752,'2019款 四驱性能版','2019款',2,1,458000,458000);

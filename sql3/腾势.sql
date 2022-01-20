@@ -1,0 +1,18 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(347,161,'腾势汽车','T');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5323,347,'腾势X',4399,'T');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43007,5323,'2020款 PHEV启航版','2020款',1,1,289800,289800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43008,5323,'2020款 PHEV经典版','2020款',2,1,299800,299800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43009,5323,'2020款 PHEV运动版','2020款',3,1,306800,306800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41234,5323,'2020款 PHEV旗舰版','2020款',4,1,319800,319800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(42902,5323,'2020款 纯电启航版','2020款',5,1,319800,319800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(42903,5323,'2020款 纯电经典版','2020款',6,1,325800,325800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(42904,5323,'2020款 纯电运动版','2020款',7,1,349800,349800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(42905,5323,'2020款 纯电旗舰版','2020款',8,1,357800,357800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(2805,347,'腾势',4400,'T');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(33610,2805,'2018款 500 时尚版','2018款',1,1,298800,298800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(33597,2805,'2018款 500 荣耀版','2018款',2,1,328800,328800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(27203,2805,'2017款 时尚版','2017款',1,1,369800,369800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(27200,2805,'2017款 尊贵版','2017款',2,1,415800,415800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(27201,2805,'2017款 荣耀版','2017款',3,1,432800,432800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18917,2805,'2014款 时尚版','2014款',1,1,369000,369000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(18997,2805,'2014款 尊贵版','2014款',2,1,399000,399000);

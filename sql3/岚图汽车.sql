@@ -1,0 +1,11 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(607,425,'岚图汽车','L');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5924,607,'岚图FREE',2944,'L');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49278,5924,'2021款 四驱增程版','2021款',1,1,313600,313600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50507,5924,'2021款 四驱增程版专属豪华套装','2021款',2,1,333600,333600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49153,5924,'2021款 两驱纯电版','2021款',3,1,333600,333600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(54077,5924,'2021款 两驱纯电城市版','2021款',4,1,348600,348600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50452,5924,'2021款 四驱纯电版专属豪华套装','2021款',5,1,363600,363600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51290,5924,'2021款 四驱增程首发纪念版','2021款',6,1,313600,313600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51291,5924,'2021款 四驱增程首发纪念版专属豪华套装','2021款',7,1,333600,333600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51292,5924,'2021款 两驱纯电首发纪念版','2021款',8,1,333600,333600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51293,5924,'2021款 四驱纯电首发纪念版专属豪华套装','2021款',9,1,363600,363600);

@@ -1,0 +1,10 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(566,386,'汉龙汽车','H');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5406,566,'旷世',2268,'K');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43124,5406,'2020款 2.0T 自动两驱卓越型','2020款',1,1,159800,159800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43125,5406,'2020款 2.0T 自动两驱尊贵型','2020款',2,1,179800,179800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43126,5406,'2020款 2.0T 自动两驱至尊型','2020款',3,1,195800,195800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43127,5406,'2020款 2.0T 自动两驱行政型','2020款',4,1,225800,225800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43128,5406,'2020款 2.0T 自动四驱卓越型','2020款',5,1,177800,177800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43129,5406,'2020款 2.0T 自动四驱尊贵型','2020款',6,1,197800,197800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43130,5406,'2020款 2.0T 自动四驱至尊型','2020款',7,1,213800,213800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41365,5406,'2020款 2.0T 自动四驱行政型','2020款',8,1,243800,243800);

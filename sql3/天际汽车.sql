@@ -1,0 +1,12 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(527,339,'天际汽车','T');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6054,527,'天际ME5',4401,'T');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50134,6054,'2021款 1012','2021款',1,1,149900,149900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51764,6054,'2021款 1012 PRO','2021款',2,1,159900,159900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52186,6054,'2021款 PLUS 京东定制版','2021款',3,1,159900,159900);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4997,527,'天际ME7',4402,'T');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47749,4997,'2021款 410km','2021款',1,1,238800,238800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47750,4997,'2021款 530km','2021款',2,1,269800,269800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47748,4997,'2021款 Touch edition 精英版 410km','2021款',3,1,218800,218800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47751,4997,'2021款 Pilot edition 领航版 410km','2021款',4,1,258800,258800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47752,4997,'2021款 Pilot edition 领航版 530km','2021款',5,1,289800,289800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(38851,4997,'2019款 尊崇始发版','2019款',1,1,366800,366800);

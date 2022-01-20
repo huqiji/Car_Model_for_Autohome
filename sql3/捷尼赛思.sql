@@ -1,0 +1,17 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(621,371,'捷尼赛思','J');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6130,621,'捷尼赛思纯电G80',2631,'J');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50720,6130,'2021款 基本型','2021款',1,1,0,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4545,621,'捷尼赛思G70',2632,'J');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53528,4545,'2021款 2.0T 后驱豪华版','2021款',1,1,249800,249800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53529,4545,'2021款 2.0T 四驱豪华型','2021款',2,1,264800,264800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53530,4545,'2021款 2.0T 后驱旗舰型','2021款',3,1,321800,321800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52967,4545,'2021款 2.0T 四驱旗舰型','2021款',4,1,336800,336800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53527,4545,'2021款 2.0T 四驱Edition 1限定版','2021款',5,1,355000,355000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4176,621,'捷尼赛思G80',2633,'J');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50869,4176,'2021款 2.5T 后驱豪华版','2021款',1,1,362800,362800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52354,4176,'2021款 2.5T 四驱豪华版','2021款',2,1,382800,382800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44306,4176,'2021款 2.5T 后驱旗舰版','2021款',3,1,433800,433800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52355,4176,'2021款 2.5T 四驱旗舰版','2021款',4,1,453800,453800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4397,621,'捷尼赛思GV80',2634,'J');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50871,4397,'2021款 2.5T 豪华版','2021款',1,1,529800,529800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43553,4397,'2021款 2.5T 旗舰版','2021款',2,1,618800,618800);

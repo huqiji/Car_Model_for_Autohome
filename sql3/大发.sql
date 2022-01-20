@@ -1,0 +1,15 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(166,92,'一汽吉林','Y');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(545,166,'森雅',1258,'S');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3509,545,'2008款 1.3L CC 手动5座','2008款',1,1,69800,69800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3510,545,'2008款 1.5L CL 手动5座','2008款',2,1,79800,79800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3511,545,'2008款 1.5L CL 自动5座','2008款',3,1,89800,89800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3512,545,'2008款 1.5L CL 手动7座','2008款',4,1,81800,81800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3513,545,'2008款 1.5L CL 自动7座','2008款',5,1,91800,91800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3508,545,'2008款 1.5L CX 自动5座','2008款',6,1,96800,96800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3514,545,'2008款 1.5L CX 自动7座','2008款',7,1,98800,98800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3128,545,'2007款 1.3L CC 手动5座','2007款',1,1,69800,69800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3053,545,'2007款 1.5L CL 手动5座','2007款',2,1,79800,79800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3135,545,'2007款 1.5L CL 自动5座','2007款',3,1,89800,89800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3137,545,'2007款 1.5L CL 手动7座','2007款',4,1,81800,81800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3138,545,'2007款 1.5L CL 自动7座','2007款',5,1,91800,91800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(3136,545,'2007款 1.5L CX 自动7座','2007款',6,1,98800,98800);

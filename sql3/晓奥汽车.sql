@@ -1,0 +1,10 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(622,439,'晓奥汽车','X');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5956,622,'晓奥V-Class',4724,'X');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53329,5956,'2022款 凡克雅宝版','2022款',1,1,1088000,1088000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53331,5956,'2022款 芭塞萝娜版','2022款',2,1,1188000,1188000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53332,5956,'2022款 梵兹慕','2022款',3,1,1388000,1388000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53141,5956,'2022款 梵影版','2022款',4,1,888000,888000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53333,5956,'2022款 梵赫版','2022款',5,1,858000,858000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(48695,5956,'2021款 凡克雅宝版','2021款',1,1,1088000,1088000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(48696,5956,'2020款 芭赛萝娜版','2020款',1,1,1188000,1188000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(48697,5956,'2020款 梵兹慕版','2020款',2,1,1388000,1388000);

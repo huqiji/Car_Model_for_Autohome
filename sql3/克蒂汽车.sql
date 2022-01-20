@@ -1,0 +1,12 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(677,501,'克蒂汽车','K');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6469,677,'克蒂圣姆峰',2856,'K');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(55201,6469,'2022款 2.0T 圣姆峰MH9','2022款',1,1,1680000,1680000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(54191,6469,'2021款 2.0T 圣姆峰M3','2021款',1,1,848000,848000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(54190,6469,'2021款 2.0T 圣姆峰MH4','2021款',2,1,998000,998000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(54189,6469,'2021款 2.0T 圣姆峰M7','2021款',3,1,1180000,1180000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(54188,6469,'2021款 2.0T 圣姆峰MH7','2021款',4,1,1380000,1380000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6587,677,'克蒂雪堆白',2857,'K');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(55202,6587,'2022款 2.0T 雪堆白MH7','2022款',1,1,1680000,1680000);
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(688,501,'克蒂汽车(进口)','K');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6586,688,'克蒂巴赫',2858,'K');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(55204,6586,'2022款 2.0T 巴赫MH7','2022款',1,1,1380000,1380000);

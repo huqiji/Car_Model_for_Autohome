@@ -1,0 +1,18 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(580,400,'创维汽车','C');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6188,580,'创维汽车EV6',1196,'C');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52342,6188,'2021款 410 出行版','2021款',1,1,165800,165800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53357,6188,'2021款 520 出行版','2021款',2,1,179800,179800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52343,6188,'2021款 520 标准版','2021款',3,1,169800,169800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52346,6188,'2021款 520 创享版','2021款',4,1,189800,189800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52345,6188,'2021款 520 智能版','2021款',5,1,199800,199800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(52347,6188,'2021款 520 PRO版','2021款',6,1,249800,249800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51130,6188,'2021款 410 定制版','2021款',7,1,152800,152800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51131,6188,'2021款 410 标准版','2021款',8,1,168800,168800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51132,6188,'2021款 520 轻享版','2021款',9,1,169800,169800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51133,6188,'2021款 520 舒享版','2021款',10,1,183800,183800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51044,6188,'2021款 520 尊享版','2021款',11,1,198800,198800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5716,580,'天美汽车ET5',1197,'T');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(46641,5716,'2020款 明心健康版410km','2020款',1,1,152800,152800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(46642,5716,'2020款 净心智慧版410km','2020款',2,1,168800,168800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(46643,5716,'2020款 净心智慧版520km','2020款',3,1,183800,183800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44798,5716,'2020款 智健合一版520km','2020款',4,1,198800,198800);

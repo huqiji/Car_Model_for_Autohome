@@ -1,0 +1,14 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(390,272,'北汽新能源','B');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5824,390,'极狐 阿尔法S(ARCFOX αS)',72,'J');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50803,5824,'2021款 525S','2021款',1,1,251900,251900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49577,5824,'2021款 525S+','2021款',2,1,268900,268900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49578,5824,'2021款 708S+','2021款',3,1,281900,281900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(49579,5824,'2021款 603H','2021款',4,1,344900,344900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50801,5824,'2021款 华为HI 基础版','2021款',5,1,388900,388900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50802,5824,'2021款 华为HI 高阶版','2021款',6,1,429900,429900);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5590,390,'极狐 阿尔法T(ARCFOX αT)',73,'J');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47985,5590,'2021款 480S','2021款',1,1,241900,241900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(43519,5590,'2021款 480S+','2021款',2,1,256900,256900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47248,5590,'2021款 653S','2021款',3,1,261900,261900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47249,5590,'2021款 653S+','2021款',4,1,276900,276900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47487,5590,'2021款 四驱性能版 H','2021款',5,1,319900,319900);

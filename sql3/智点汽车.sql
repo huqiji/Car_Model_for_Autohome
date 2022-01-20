@@ -1,0 +1,10 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(670,495,'智点汽车','Z');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6432,670,'智点F101微面',5029,'Z');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012187,6432,'2022款 VAN','2022款',1,1,0,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6433,670,'智点F101微卡',5030,'Z');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012188,6433,'2022款 基本型','2022款',1,1,0,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6434,670,'智点K201',5031,'Z');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012184,6434,'2022款 两驱低配版双排','2022款',1,1,0,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012182,6434,'2022款 两驱高配版双排','2022款',2,1,0,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012185,6434,'2022款 两驱低配版单排','2022款',3,1,0,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012183,6434,'2022款 两驱高配版单排','2022款',4,1,0,0);

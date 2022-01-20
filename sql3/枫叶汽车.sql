@@ -1,0 +1,11 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(598,416,'枫叶汽车','F');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5710,598,'枫叶30X',1876,'F');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44974,5710,'2020款 风云版','2020款',1,1,68800,68800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44975,5710,'2020款 风范版','2020款',2,1,73800,73800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44976,5710,'2020款 风尚版','2020款',3,1,77800,77800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44638,5710,'2020款 风华版','2020款',4,1,79800,79800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(46534,5710,'2020款 出行版','2020款',5,1,82800,82800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47043,5710,'2020款 智行版','2020款',6,1,95800,95800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5861,598,'枫叶80V',1877,'F');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(47130,5861,'2021款 易行版','2021款',1,1,159800,159800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(51454,5861,'2021款 优行版','2021款',2,1,169800,169800);

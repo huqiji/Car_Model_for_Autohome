@@ -1,0 +1,14 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(196,100,'科尼赛克','K');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5684,196,'Gemera',2848,'G');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44297,5684,'2020款 基本型','2020款',1,1,0,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5167,196,'Jesko',2849,'J');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(44299,5167,'2020款 Absolut','2020款',1,1,0,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(39988,5167,'2019款 Red Cherry Edition','2019款',1,1,0,0);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(38097,5167,'2019款 基本型','2019款',2,1,0,0);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(2068,196,'Agera',2850,'A');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(9582,2068,'2011款 5.0T R','2011款',1,1,26500000,26500000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(731,196,'科尼赛克CCX',2854,'K');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(4876,731,'2006款 4.7 标准型','2006款',1,1,23000000,23000000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(732,196,'科尼赛克CCXR',2855,'K');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(6051,732,'2010款 4.8 Trevita','2010款',1,1,47000000,47000000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(4877,732,'2008款 4.7T Edition','2008款',1,1,26000000,26000000);

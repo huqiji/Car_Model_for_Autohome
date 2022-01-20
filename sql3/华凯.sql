@@ -1,0 +1,18 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(431,245,'明君汽车','M');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(3911,431,'华凯皮卡',2338,'H');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1004049,3911,'2016款 2.2L舒适型短轴JM491Q-ME','2016款',1,1,65400,65400);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1004045,3911,'2016款 2.2L豪华型短轴JM491Q-ME','2016款',2,1,66000,66000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1004051,3911,'2016款 2.2L舒适型长轴JM491Q-ME','2016款',3,1,66400,66400);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1004047,3911,'2016款 2.2L豪华型长轴JM491Q-ME','2016款',4,1,67000,67000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1004050,3911,'2016款 2.8T舒适型短轴JE493ZQ8','2016款',5,1,89800,89800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1004046,3911,'2016款 2.8T豪华型短轴JE493ZQ8','2016款',6,1,103800,103800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1004052,3911,'2016款 2.8T舒适型长轴JE493ZQ8','2016款',7,1,89800,89800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1004048,3911,'2016款 2.8T豪华型长轴JE493ZQ8','2016款',8,1,106800,106800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1003642,3911,'2015款 2.2L标准版短轴JM491Q-ME','2015款',1,1,64800,64800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1003646,3911,'2015款 2.2L豪华版短轴JM491Q-ME','2015款',2,1,65900,65900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1003644,3911,'2015款 2.2L标准版长轴JM491Q-ME','2015款',3,1,65800,65800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1003648,3911,'2015款 2.2L豪华版长轴JM491Q-ME','2015款',4,1,66900,66900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1003643,3911,'2015款 2.8T标准版短轴JE493ZQ8','2015款',5,1,81800,81800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1003647,3911,'2015款 2.8T豪华版短轴JE493ZQ8','2015款',6,1,84800,84800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1003645,3911,'2015款 2.8T标准版长轴JE493ZQ8','2015款',7,1,82800,82800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1003649,3911,'2015款 2.8T豪华版长轴JE493ZQ8','2015款',8,1,85800,85800);

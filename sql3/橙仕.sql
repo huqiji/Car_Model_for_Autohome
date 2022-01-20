@@ -1,0 +1,10 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(656,477,'豪驰智能','H');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6310,656,'橙仕01',1195,'C');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012575,6310,'2021款 创富版单排封闭式货车单人座单电池','2021款',1,1,46658,46658);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012576,6310,'2021款 创富版单排封闭式货车双人座单电池','2021款',2,1,46658,46658);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012581,6310,'2021款 创富版+3.3KW单排封闭式货车单人座单电池','2021款',3,1,47658,47658);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012582,6310,'2021款 创富版+3.3KW单排封闭式货车双人座单电池','2021款',4,1,47658,47658);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012579,6310,'2021款 财富版单排封闭式货车单人座双电池','2021款',5,1,57658,57658);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012580,6310,'2021款 财富版单排封闭式货车双人座双电池','2021款',6,1,57658,57658);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1011855,6310,'2021款 财富版+空调单排封闭式货车单人座双电池','2021款',7,1,59998,59998);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1012574,6310,'2021款 财富版+空调单排封闭式货车双人座双电池','2021款',8,1,59998,59998);

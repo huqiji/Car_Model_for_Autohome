@@ -1,0 +1,10 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(487,308,'Polestar','P');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5078,487,'Polestar 2',3643,'P');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50689,5078,'2021款 单电机标准续航','2021款',1,1,257800,257800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50690,5078,'2021款 单电机长续航','2021款',2,1,287800,287800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50691,5078,'2021款 双电机长续航','2021款',3,1,338000,338000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(38037,5078,'2020款 标准版','2020款',1,1,298000,298000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(48802,5078,'2020款 长续航双电机版','2020款',2,1,338000,338000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(37469,5078,'2020款 首发版','2020款',3,1,418000,418000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(4581,487,'Polestar 1',3644,'P');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(32172,4581,'2018款 标准型','2018款',1,1,1450000,1450000);

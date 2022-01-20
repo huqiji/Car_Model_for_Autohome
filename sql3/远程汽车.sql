@@ -1,0 +1,16 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(559,382,'吉利远程','J');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5377,559,'远程E5',5005,'Y');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008722,5377,'2019款 E5L 纯电动厢式运输车国轩39.9kWh','2019款',1,1,119600,119600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1008721,5377,'2019款 E5L 纯电动厢式运输车宁德41.86kWh','2019款',2,1,125600,125600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1007915,5377,'2019款 封闭式货车','2019款',3,1,111600,111600);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5378,559,'远程E6',5006,'Y');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1009262,5378,'2020款 厢式运输车高顶载重1330kg星恒电池高电量','2020款',1,1,157600,157600);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1009260,5378,'2020款 厢式运输车高顶载重1365kg宁德时代高电量','2020款',2,1,189800,189800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1009261,5378,'2020款 厢式运输车低顶载重1365kg宁德时代高电量','2020款',3,1,187800,187800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1009258,5378,'2020款 厢式运输车高顶载重1415kg宁德时代低电量','2020款',4,1,179800,179800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1009257,5378,'2020款 厢式运输车低顶载重1415kg宁德时代低电量','2020款',5,1,177800,177800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1009259,5378,'2020款 厢式运输车高顶载重1330kg宁德时代高电量','2020款',6,1,149800,189800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1007916,5378,'2019款 厢式运输车','2019款',1,1,157600,157600);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5789,559,'吉利远程FX',5007,'J');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1010184,5789,'2020款 1.8T智联版','2020款',1,1,119900,119900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(1009627,5789,'2020款 1.8T智慧版','2020款',2,1,129900,129900);

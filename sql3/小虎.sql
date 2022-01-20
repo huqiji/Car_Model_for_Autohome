@@ -1,0 +1,11 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(637,457,'小虎汽车','X');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(6097,637,'小虎FEV',4716,'X');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53759,6097,'2021款 FOR-Two小萌虎','2021款',1,1,29900,29900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53491,6097,'2021款 FOR-Two小乖虎','2021款',2,1,35900,35900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53760,6097,'2021款 FOR-Two小帅虎','2021款',3,1,41900,41900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53493,6097,'2021款 FOR-Four乖乖虎','2021款',4,1,38900,38900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53761,6097,'2021款 FOR-Four帅帅虎','2021款',5,1,42900,42900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53762,6097,'2021款 FOR-Four乖乖虎长续航','2021款',6,1,43900,43900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53763,6097,'2021款 FOR-Four霹雳虎','2021款',7,1,48900,48900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50482,6097,'2021款 豪华款','2021款',8,1,45800,45800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(50483,6097,'2021款 旗舰款','2021款',9,1,48800,48800);

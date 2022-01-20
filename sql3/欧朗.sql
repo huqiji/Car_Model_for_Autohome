@@ -1,0 +1,12 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(332,146,'一汽欧朗','Y');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(2563,332,'欧朗',3639,'O');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(17897,2563,'2014款 两厢 1.5L 手动舒适型','2014款',1,1,66800,66800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(17899,2563,'2014款 两厢 1.5L 自动舒适型','2014款',2,1,71800,71800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(17898,2563,'2014款 两厢 1.5L 手动豪华型','2014款',3,1,73800,73800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(17900,2563,'2014款 两厢 1.5L 自动豪华型','2014款',4,1,81800,81800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12592,2563,'2012款 三厢 1.5L 手动基本型','2012款',1,1,62800,62800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12492,2563,'2012款 三厢 1.5L 手动舒适型','2012款',2,1,66800,66800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12493,2563,'2012款 三厢 1.5L 自动舒适型','2012款',3,1,73800,73800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12348,2563,'2012款 三厢 1.5L 手动豪华型','2012款',4,1,73800,73800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12494,2563,'2012款 三厢 1.5L 自动豪华型','2012款',5,1,81800,81800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(11367,2563,'2012款 三厢 1.5L 自动尊贵型','2012款',6,1,89800,89800);

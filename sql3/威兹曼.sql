@@ -1,0 +1,10 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(195,99,'威兹曼','W');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(725,195,'威兹曼GT',4447,'W');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12973,725,'2012款 4.4T MF4','2012款',1,1,2950000,2950000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(13304,725,'2012款 4.0 MF4-S','2012款',2,1,2980000,2980000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12974,725,'2012款 4.4T MF5','2012款',3,1,3850000,3850000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(4917,725,'2006款 4.8 MF4','2006款',1,1,4280000,4280000);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(959,195,'威兹曼Roadster',4448,'W');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(8144,959,'2012款 MF4','2012款',1,1,3100000,3100000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(13301,959,'2012款 MF4-S','2012款',2,1,3200000,3200000);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(6308,959,'2012款 MF5','2012款',3,1,4100000,4100000);

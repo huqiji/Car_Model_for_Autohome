@@ -1,0 +1,15 @@
+insert into t_car_brand_factory(cbf_id , cb_id , cbf_name ,cbf_letter) values(151,162,'东风本田','D');
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5787,151,'东风本田M-NV',4269,'D');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(48940,5787,'2021款 尚骋版','2021款',1,1,149800,149800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(46094,5787,'2021款 尚逸版','2021款',2,1,159800,159800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(5267,151,'东风本田X-NV',4270,'D');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53087,5267,'2021款 风驰版','2021款',1,1,169800,169800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(53088,5267,'2021款 电掣版','2021款',2,1,179800,179800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41956,5267,'2020款 风驰版','2020款',1,1,169800,169800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(41957,5267,'2020款 电掣版','2020款',2,1,179800,179800);
+insert into t_car_series(cs_id,cbf_id,cs_name,cs_order,cs_letter) values(2751,151,'思铭',4271,'S');
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(21091,2751,'2015款 1.8L 手动舒适版','2015款',1,1,99900,99900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(21092,2751,'2015款 1.8L 自动舒适版','2015款',2,1,109900,109900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(21093,2751,'2015款 1.8L 自动豪华版','2015款',3,1,116900,116900);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12593,2751,'2012款 1.8L 手动','2012款',1,1,111800,111800);
+insert into t_car_model(cm_id , cs_id , cm_name,cm_type ,cm_order , cm_state , cm_min_price , cm_max_price) values(12530,2751,'2012款 1.8L 自动','2012款',2,1,119800,119800);
